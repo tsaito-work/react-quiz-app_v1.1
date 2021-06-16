@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Data } from "../../data/QuestionData.json.js";
-import { QuestionConst } from "../../data/Const.json.js";
+import { Data } from "../../data/QuestionData.json";
+import { QuestionConst } from "../../data/Const.json";
 import { QuestionDiv, AnswerDiv, PageButtonDiv, QuestionForm } from "../styles/QuestionCss";
 import { Button } from "../styles/CommonCss";
 import { useHistory, useLocation } from "react-router-dom";
